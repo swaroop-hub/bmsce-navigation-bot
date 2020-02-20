@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora_MRU</title>
+    <style media="screen">
+      .buttton{background-color: #f44336;}
+    </style>
+  </head>
+  <body>
+    <h1>Calculadora de MRU(Movimiento Rectilineo Uniforme)</h1>
+    <table border="7"><tr><td>
+          <table>
+            <tr>
+              <td><input size="100%" type="text" id="main"></td>
+            </tr>
+          </table>
+          <hr>
+          <table>
+            <tr>
+              <td><button onclick="FuncionParaX()">x</button></td><td></td>
+              <td><button onclick="FuncionParaX0()">x<sub>0</sub></button></td><td></td>
+              <td><button onclick="FuncionParaV()">v</button></td><td></td>
+              <td><button onclick="FuncionParaT()">t</button></td><td></td>
+            </tr>
+            <tr>
+              <td><p id="px"></p></td>
+              <td><p> metros</p></td>
+              <td><p id="px0"></p></td>
+              <td><p> metros</p></td>
+              <td><p id="pv"></p></td>
+              <td><p> metros/segundo</p></td>
+              <td><p id="pt"></p></td>
+              <td><p> segundos</p></td>
+            </tr>
+            <tr>
+              <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+              <td><button color="red" class="button buttton" onclick="Borrar()">Borrar</button></td>
+            </tr>
+          </table>
+    </td></tr></table>
+    <script src="calculo.js"></script>
+  </body>
+</html>

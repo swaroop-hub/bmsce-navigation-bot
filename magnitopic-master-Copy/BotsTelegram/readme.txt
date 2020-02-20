@@ -1,0 +1,1 @@
+Hola, estos son los bots (O intentos en hacerlos) que he estado haciendo durante el coderdojo de 2017, todos estan con el token de el bot "MagnitopicBot" (384742987:AAE_sZgYENdp3n2vWsCrFXwcb9WeOrYuNQU) 
